@@ -1,1 +1,2 @@
-Hello friends, we are learning git
+Hello friends, 
+We are learning git and git hub
