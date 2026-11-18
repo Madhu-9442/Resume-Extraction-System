@@ -1,0 +1,19 @@
+project_name: test_pilot1
+
+input:
+  source_path: data/new_resumes
+
+output:
+  output_path: C:\Users\DELL\OneDrive\Desktop\GenAI_WDB_28th_Sep\resumes\resume_extraction\test_output
+  # raw_response: model_raw_response
+  # parsed_response: model_parsed_response 
+
+llm:
+  api_key: "OPENAI_API_KEY"
+  provider: openai
+  model: gpt-5.4-mini
+
+retry:
+  max_attempts: 3
+  initial_delay: 2
+  max_delay: 30       
